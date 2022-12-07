@@ -1,0 +1,30 @@
+.app-main
+    width:70%
+    height:100vh
+    .app-main-note-edit
+        height: 50vh
+        padding: 25px
+        input
+            height: 50px !important
+            font-size: 2rem
+        input, textarea
+            display: block
+            border: 1px solid #ddd
+            margin-bottom: 20px
+            width: 100%
+            height: calc( 50vh - 130px )
+            padding: 5px
+            resize: none
+            
+    .app-main-note-preview
+        height: 50vh
+        border-top: 1px solid #ddd
+        overflow-y: scroll
+        background: rgba(0, 0, 0, 0.04)
+        .preview-title
+            padding: 25px 25px 0px 25px
+        .markdown-preview
+            padding: 0 25px 25px 25px
+            line-height: 2rem
+            white-space: pre-wrap
+            word-break: break-all

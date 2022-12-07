@@ -1,0 +1,57 @@
+.app-sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px dotted #ddd;
+}
+.app-sidebar .app-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.app-sidebar .app-sidebar-header h1 {
+  margin: 0;
+}
+.app-sidebar .app-sidebar-notes {
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
+}
+.app-sidebar .app-sidebar-notes .app-sidebar-note {
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.app-sidebar .app-sidebar-notes .app-sidebar-note:hover {
+  background-color: #d4d4d4;
+}
+.app-sidebar .app-sidebar-notes .app-sidebar-note.active {
+  background-color: #d4d4d4;
+}
+.app-sidebar .app-sidebar-notes .app-sidebar-note p {
+  margin: 10px 0;
+}
+.app-sidebar .app-sidebar-notes .app-sidebar-note small {
+  color: #999;
+}
+.app-sidebar .app-sidebar-notes .app-sidebar-note .sidebar-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no-active-note {
+  width: 70%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  color: #999;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #08c;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+}/*# sourceMappingURL=Sidebar.css.map */
